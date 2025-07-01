@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "leaflet/dist/leaflet.css";
+
+
+.bgimage {
+  background-image: url('images/bg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 92vh;
+  width: 100%;
+}
+.bg-image{
+  background-image: url("images/fixedimage.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+background-size: cover;
+
+ background-position: center;
+ position:relative;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+}
